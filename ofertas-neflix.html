@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./imgs/flixhub.webp"type="image/x-icon">
+</head>
+<body>
+    <style> .logo {
+        position: absolute; /* Coloca la imagen en la parte superior izquierda */
+        top: 20px;
+        left: 20px;
+    }
+    .logo img {
+        height: 60px; /* Ajusta el tamaño de la imagen */
+        width: auto; /* Mantiene la proporción de la imagen */
+        transition: transform 0.3s;
+    }
+    .logo img:hover {
+        transform: scale(1.1); /* Efecto de aumento al pasar el ratón */
+    }
+        h5{
+    color: #e50914; /* Rojo de Netflix */
+    font-size: 2.5rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-align: center; /* Centrado */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+        #ofertas-netflix {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Color de fondo claro para el apartado */
+}
+
+.ofertas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.oferta {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    height: 270px;
+}
+
+.oferta:hover {
+    transform: translateY(-5px);
+}
+
+.oferta h3 {
+    font-size: 1.8rem;
+    color: #e50914; /* Color rojo para el título de Netflix */
+    margin-bottom: 10px;
+}
+
+.oferta p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.a{
+color: rgb(209, 0, 0);
+font-size: 1.5em;
+text-align: center;
+}
+    </style> 
+   
+
+
+
+
+
+   <div class="logo">
+    <a href="index.html"> <!-- Cambia el href a tu URL deseada -->
+        <img src="./imgs/flecha-izquierda.png" alt="Logo FLIXHUB"> <!-- Cambia el path a tu imagen -->
+    </a>
+</div>
+
+
+
+
+
+       
+    <section id="ofertas-netflix">
+        <h5 class="titulo-netflix">Netflix</h5> <!-- Clase añadida -->
+        <p class="a">cuentas basicas</p>
+        <div class="ofertas-grid">
+            <div class="oferta">
+                <h3>OFERTA 1</h3>
+                <p>Precio: 8.000 COP</p>
+                <p>Dispositivos: 1 pantalla</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 1 pantalla</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 2</h3>
+                <p>Precio: 16.000 COP</p>
+                <p>Dispositivos: 2 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 1 pantalla</p>
+            
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 3</h3>
+                <p>Precio: 26.000 COP</p>
+                <p>Dispositivos: 3 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 1 pantalla</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 4</h3>
+                <p>Precio: 35.000 COP</p>
+                <p>Dispositivos: 4 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 1 pantalla</p>
+            </div> <div class="oferta">
+                <h3>OFERTA 5</h3>
+                <p>Precio: 40.000 COP</p>
+                <p>Dispositivos: 5 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 1 pantalla</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <section id="ofertas-netflix">
+        <p class="a">cuentas Estándar</p>
+        <div class="ofertas-grid">
+            <div class="oferta">
+                <h3>OFERTA 6</h3>
+                <p>Precio: 10.000 COP</p>
+                <p>Dispositivos: 1 pantalla</p>
+                <p>Calidad: 1080p (Full HD)</p>
+                <p>Dispositivos En Reproduccion: 2 pantallas</p>
+              
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 7</h3>
+                <p>Precio: 13.000 COP</p>
+                <p>Dispositivos: 2 pantallas</p>
+                <p>Calidad: 1080p (Full HD)</p>
+                <p>Dispositivos En Reproduccion: 2 pantallas</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 8</h3>
+                <p>Precio: 16.000 COP</p>
+                <p>Dispositivos: 3 pantallas</p>
+                <p>Calidad: 1080p (Full HD)</p>
+                <p>Dispositivos En Reproduccion: 2 pantallas</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 9</h3>
+                <p>Precio: 19.000 COP</p>
+                <p>Dispositivos: 4 pantallas</p>
+                <p>Calidad: 1080p (Full HD)</p>
+                <p>Dispositivos En Reproduccion: 2 pantallas</p>
+           
+            </div> <div class="oferta">
+                <h3>OFERTA 10</h3>
+                <p>Precio: 22.000 COP</p>
+                <p>Dispositivos: 5 pantallas</p>
+                <p>Calidad: 1080p (Full HD)</p>
+                <p>Dispositivos En Reproduccion: 2 pantallas</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+<div data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500">
+    <section id="ofertas-netflix">
+        <p class="a">cuentas Premium</p>
+        <div class="ofertas-grid">
+            <div class="oferta">
+                <h3>OFERTA 1</h3>
+                <p>Precio: 15.000 COP</p>
+                <p>Dispositivos: 1 pantalla</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 4 pantallas</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 2</h3>
+                <p>Precio: 25.000 COP</p>
+                <p>Dispositivos: 2 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 4 pantallas</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 3</h3>
+                <p>Precio: 35.000 COP</p>
+                <p>Dispositivos: 3 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 4 pantallas</p>
+            </div>
+            <div class="oferta">
+                <h3>OFERTA 4</h3>
+                <p>Precio: 45.000 COP</p>
+                <p>Dispositivos: 4 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 4 pantallas</p>
+            </div> <div class="oferta">
+                <h3>OFERTA 5</h3>
+                <p>Precio: 55.000 COP</p>
+                <p>Dispositivos: 5 pantallas</p>
+                <p>Calidad: 720p</p>
+                <p>Dispositivos En Reproduccion: 4 pantallas</p>
+            </div>
+        </div>
+    </section>
+<div></div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
